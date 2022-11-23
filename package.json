@@ -1,0 +1,28 @@
+{
+  "name": "setting_babel",
+  "version": "1.0.0",
+  "description": "Setting Babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasilij-jV/SettingBabel.git"
+  },
+  "author": "Vasilij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasilij-jV/SettingBabel/issues"
+  },
+  "homepage": "https://github.com/Vasilij-jV/SettingBabel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1"
+  }
+}
